@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: wheat;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 80%;
+  background-color: aqua;
+  margin: 0 auto;
+  padding: 20px;
+}
+.display-pic {
+  width: 80px;
+  height: 90px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+.bio {
+  float: left;
+  padding: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgb(171, 100, 237);
+}
+.contact {
+  float: right;
+}
+.contact a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+}
+.contact a:hover {
+  font-size: large;
+  text-decoration: underline;
+  color: brown;
+}
+.div-clear {
+  clear: both;
+}
+hr {
+  border: solid black 2px;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
